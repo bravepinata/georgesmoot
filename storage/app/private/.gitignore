@@ -1,2 +1,6 @@
 *
 !.gitignore
+
+# Keep the resueme*.json files in the private storage directory
+!resume-sample.json
+!resume.json
