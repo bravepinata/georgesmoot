@@ -9,8 +9,9 @@ Route::get('/', function () {
 });
 */
 Route::get('/', [ResumeController::class, 'index']);
+Route::post('/download', [ResumeController::class, 'download']);
 
-
+/*
 Route::get('/resume', [ResumeController::class, 'index']);
 
 Route::get('/projects', function () {
@@ -24,3 +25,4 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+*/
