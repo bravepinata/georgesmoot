@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GeorgeSmoot.com</title>
+        <title>Home - GeorgeSmoot.com</title>
         @vite(['resources/js/app.js'])
     </head>
     <body class="text-gray-800 bg-gray-50">
@@ -23,11 +23,11 @@
         </button>
       </div>
       <div class="hidden sm:flex md:flex sm:justify-center md:justify-center sm:gap-x-6 md:gap-x-8 lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-white">Home</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Resume</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Projects</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">About</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Contact</a>
+        <a href="/" class="text-sm/6 font-semibold text-white">Home</a>
+        <a href="/resume" class="text-sm/6 font-semibold text-white">Resume</a>
+        <a href="/projects" class="text-sm/6 font-semibold text-white">Projects</a>
+        <a href="/about" class="text-sm/6 font-semibold text-white">About</a>
+        <a href="/contact" class="text-sm/6 font-semibold text-white">Contact</a>
       </div>
       <!-- login link removed -->
     </nav>
@@ -47,11 +47,11 @@
             <div class="mt-6 flow-root">
               <div class="-my-6 divide-y divide-white/10">
                 <div class="space-y-2 py-6">
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Home</a>
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Resume</a>
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Projects</a>
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">About</a>
-                  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Contact</a>
+                  <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Home</a>
+                  <a href="/resume" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Resume</a>
+                  <a href="/projects" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Projects</a>
+                  <a href="/about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">About</a>
+                  <a href="/contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Contact</a>
                 </div>
                 <div class="py-6">
                   <!-- mobile login removed -->
