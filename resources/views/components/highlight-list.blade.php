@@ -4,7 +4,7 @@
     <ul class="space-y-2">
         @foreach($highlights as $highlight)
             <li class="flex items-start gap-3">
-                <div class="w-1.5 h-1.5 bg-gradient-to-r {{ $bulletColor }} rounded-full mt-2 flex-shrink-0"></div>
+                <div class="w-1.5 h-1.5 bg-linear-to-r {{ $bulletColor }} rounded-full mt-2 shrink-0"></div>
                 <span class="text-slate-700 leading-relaxed">{{ $highlight }}</span>
             </li>
         @endforeach

@@ -1,24 +1,24 @@
 <x-layout :title="$resume->basics->name . ' Résumé'">
     <x-slot:header>
         <!-- Hero Section with Full-Width Dark Gradient Background -->
-        <div class="relative w-full bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 overflow-hidden">
+        <div class="relative w-full bg-linear-to-br from-slate-900 via-blue-900 to-indigo-900 overflow-hidden">
             <!-- Content container -->
             <div class="relative z-10 max-w-5xl mx-auto px-6 py-20">
                 <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12">
                     <!-- Left side - Text content -->
                     <div class="flex-1">
                         <!-- Name with Gradient Text -->
-                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-black bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent mb-4 leading-tight">
+                        <h1 class="text-5xl md:text-6xl lg:text-7xl font-black bg-linear-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent mb-4 leading-tight">
                             {{ $resume->basics->name }}
                         </h1>
 
                         <!-- Job Title -->
                         <div class="flex items-center gap-3 mb-8">
-                            <div class="w-12 h-0.5 bg-gradient-to-r from-blue-400 to-indigo-400"></div>
+                            <div class="w-12 h-0.5 bg-linear-to-r from-blue-400 to-indigo-400"></div>
                             <h2 class="text-xl md:text-2xl font-semibold text-blue-100">
                                 {{ $resume->basics->label }}
                             </h2>
-                            <div class="w-12 h-0.5 bg-gradient-to-r from-indigo-400 to-blue-400"></div>
+                            <div class="w-12 h-0.5 bg-linear-to-r from-indigo-400 to-blue-400"></div>
                         </div>
 
                         <!-- Contact Information with Icons -->
@@ -114,7 +114,7 @@
                                     <h3 class="text-2xl font-bold text-slate-800 mb-2">{{ $work->position }}</h3>
                                     <div class="flex items-center gap-2 mb-3">
                                         <div
-                                            class="w-2 h-2 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
+                                            class="w-2 h-2 bg-linear-to-r from-blue-500 to-indigo-500 rounded-full"></div>
                                         <span class="text-lg font-semibold text-slate-600">{{ $work->name }}</span>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                 <div class="flex flex-wrap gap-2">
                                     @foreach($skill->keywords as $keyword)
                                         <span
-                                            class="px-3 py-1 bg-gradient-to-r from-slate-100 to-slate-200 text-slate-700 text-sm font-medium rounded-full shadow-sm hover:shadow-md transition-shadow duration-200">
+                                            class="px-3 py-1 bg-linear-to-r from-slate-100 to-slate-200 text-slate-700 text-sm font-medium rounded-full shadow-sm hover:shadow-md transition-shadow duration-200">
                                             {{ $keyword }}
                                         </span>
                                     @endforeach

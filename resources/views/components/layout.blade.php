@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     </head>
-    <body class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
+    <body class="min-h-screen bg-linear-to-br from-slate-50 via-blue-50 to-indigo-100">
         <main>
             <header>
                 {{ $header }}

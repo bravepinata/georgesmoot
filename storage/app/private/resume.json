@@ -1,6 +1,6 @@
 {
     "basics": {
-        "name": "John Wick",
+        "name": "George Smoot",
         "label": "Senior Full-Stack Developer & Bug Exterminator",
         "image": "https://images.unsplash.com/photo-1644004680400-b9425e4efa18?q=80&w=2819&auto=format&fit=crop",
         "email": "john.wick@example.com",
@@ -8,23 +8,23 @@
         "url": "https://example.com/johnwick",
         "summary": "Legendary full-stack developer with an exceptional track record of eliminating bugs, crushing deadlines, and delivering flawless code. Known for my relentless pursuit of clean architecture and my ability to debug the most complex systems. I don't just write code - I craft digital masterpieces. Retired from the underground hacking scene, now focusing on legitimate software development. Warning: Do not touch my rubber duck debugger.",
         "location": {
-            "address": "The Continental Hotel",
-            "postalCode": "10001",
-            "city": "New York",
+            "address": "",
+            "postalCode": "",
+            "city": "Annapolis",
             "countryCode": "US",
-            "region": "NY"
+            "region": "MD"
         },
         "profiles": [{
             "network": "GitHub",
-            "username": "johnwick",
-            "url": "https://github.com"
+            "username": "bravepinata",
+            "url": "https://github.com/bravepinata"
         }, {
             "network": "LinkedIn",
-            "username": "john-wick-dev",
-            "url": "https://linkedin.com"
+            "username": "george-smoot-4130",
+            "url": "https://linkedin.com/in/george-smoot-4130"
         }, {
             "network": "Stack Overflow",
-            "username": "baba-yaga-codes",
+            "username": "baba-yaga",
             "url": "https://stackoverflow.com"
         }]
     },
@@ -85,12 +85,12 @@
         ]
     }],
     "education": [{
-        "institution": "MIT",
-        "url": "",
+        "institution": "Cal State University, Fullerton",
+        "url": "https://www.fullerton.edu",
         "area": "Computer Science",
         "studyType": "Bachelor of Science",
-        "startDate": "2010-09-01",
-        "endDate": "2014-05-31",
+        "startDate": "1997-09-01",
+        "endDate": "2001-05-31",
         "score": "4.0",
         "courses": [
             "Advanced Algorithms and Data Structures",
@@ -98,19 +98,6 @@
             "Cybersecurity and Cryptography",
             "Machine Learning and AI",
             "Software Engineering Principles"
-        ]
-    }, {
-        "institution": "The Continental Academy",
-        "url": "",
-        "area": "Advanced Software Security",
-        "studyType": "Professional Certification",
-        "startDate": "2015-01-01",
-        "endDate": "2015-12-31",
-        "score": "Perfect",
-        "courses": [
-            "Penetration Testing and Ethical Hacking",
-            "Advanced Encryption Techniques",
-            "System Hardening and Security Auditing"
         ]
     }],
     "awards": [{
